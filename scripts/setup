@@ -19,6 +19,9 @@ einfo() {
 
 # set up the builder's environment
 setup_builder() {
+    # because the 10.0.2.3 QEMU DNS server had a problem on MacOS
+    echo "nameserver 8.8.8.8" > /etc/resolv.conf
+
     einfo "Setting up Builder Instance"
     setup-apkrepos -1   # main repo via dl-cdn
     # ODO? also uncomment community repo?
