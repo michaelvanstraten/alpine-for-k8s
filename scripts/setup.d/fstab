@@ -1,2 +1,2 @@
-# <fs>      <mountpoint>   <type>   <opts>              <dump/pass>
-LABEL=/     /              ext4     defaults,noatime    1 1
+# <fs>      <mountpoint>   <type>   <opts>                      <dump/pass>
+LABEL=/     /              ext4     defaults,rshared,noatime    1 1

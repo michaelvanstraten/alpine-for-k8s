@@ -1,1 +1,1 @@
-LABEL=EFI   /boot/efi      vfat     defaults,noatime,uid=0,gid=0,umask=077  0 0
+LABEL=EFI   /boot/efi      vfat     defaults,rshared,noatime,uid=0,gid=0,umask=077  0 0

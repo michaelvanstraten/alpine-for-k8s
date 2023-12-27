@@ -190,6 +190,8 @@ build {
         "SERVICES_ENABLE=${B.value.services.enable}",
         "SERVICES_DISABLE=${B.value.services.disable}",
         "VERSION=${B.value.version}",
+        "CNI=${B.value.cni}",
+        "CRI=${B.value.cri}"
       ]
     }
   }
