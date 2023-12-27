@@ -118,6 +118,9 @@ build {
       disk_size         = B.value.size
       format            = "qcow2"
       vm_name           = "image.qcow2"
+
+      # compress resulting images
+      disk_compression = true
     }
   }
 
