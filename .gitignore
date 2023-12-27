@@ -6,3 +6,4 @@
 /work/
 releases*yaml
 /*.yaml
+/*.vars.hcl
